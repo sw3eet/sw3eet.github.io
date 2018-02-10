@@ -1,0 +1,383 @@
+header {
+	width: 1600px;
+	height: 750px;
+	background: url(../img/header.jpg);
+	text-align: center;
+	margin:0 auto;
+}
+.top-block {
+	width:1250px;
+	margin:0 auto;
+	overflow: hidden; 
+}
+.logo {
+	float:left;
+	margin-top: 10px;
+}
+nav {
+	float: left;
+	margin-left:160px;
+
+}
+nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+nav li {
+	display: inline-block;
+	margin:0 5px;
+}
+nav a {
+	display: block;
+	text-decoration: none;
+	color:#fff;
+	font-size: 21px;
+	font-family: 'Gentium Book Basic', serif;
+	font-weight: bold;
+	padding: 50px 20px 0;
+	border-top: 4px solid transparent;
+
+
+
+}
+nav a:hover {
+	border-top:4px solid #fff;
+}
+.socials {
+	float:right;
+	margin-top: 55px;
+
+}
+.socials a{
+	color:#c20;
+	font-size: 20px;
+	margin:0 3px;
+	text-shadow: 1px 1px 1px #000;
+	transition: 0.7s;
+	display: inline-block;
+}
+.socials a:hover{
+	transform: scale(1.4) rotate(1.5turn);
+}
+header h1{
+	color:#fff;
+	font-family: 'Yeseva One', cursive;
+	font-size: 90px;
+	font-weight: normal;
+	margin: 120px auto 0;
+	width: 1000px;
+	line-height: 120px;
+}
+.uzor {
+	width: 232px;
+	height: 43px;
+	margin: 25px auto;
+	background: url(../img/uzor.png);
+
+}
+.black {
+	display: inline-block;
+	width: 230px;
+	height: 57px;
+	border: 1px solid #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Lato' , sans-serif;
+	font-size: 18px;
+	color:#fff;
+	line-height: 57px;
+	background: rgba(0,0,0,0.6);
+	margin-right: 15px;
+	transition: 0.8s;
+}
+.black:hover {
+	transform: scale(1.2);
+}
+.white {
+	display: inline-block;
+	width: 230px;
+	height: 57px;
+	border: 1px solid #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Lato' , sans-serif;
+	font-size: 18px;
+	color:#fff;
+	line-height: 57px;
+	background: rgba(255,255,255,0.3);
+	margin-left: 15px;
+	transition: 0.8s;
+}
+.white:hover {
+	transform: scale(1.2);
+}
+.about {
+	width: 1600px;
+	height: 710px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.cook {
+	display: inline-block;
+	width: 440px;
+	margin: 100px 30px 0 0;
+
+}	
+.cook h3 {
+	font-size: 36px;
+	color: #c90;
+	font-weight: normal;
+	margin: 0;
+	font-family: 'Yeseva One', cursive;
+
+} 
+.yellow-uzor {
+	width: 247px;
+	height: 24px;
+	background: url(../img/yellow-uzor.png);
+	margin:25px auto;
+
+}
+.cook p {
+	font-family: 'Lato' , sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #4c4c4c;
+
+}
+.cook img{
+	margin: 60px 0 0 90px;
+
+}
+.dish{
+	margin: 70px 0 0 30px;
+	vertical-align: top;
+
+}
+.ingred {
+	width: 1600px;
+	height:  758px;
+	margin: 0 auto;
+	text-align: right;
+	background: url(../img/fon-ingred.jpg);
+}
+.ingr-block {
+	text-align: center;
+	color: #fff;
+	background: rgba(0,0,0,0.6);
+	padding: 80px;
+	box-sizing: border-box;
+	width: 570px;
+	height: 555px;
+	display:inline-block; 
+	margin:100px 215px 0 0;
+
+}
+.ingr-block h3{
+	font-size: 36px;
+	margin: 0;
+	font-weight: normal;
+	font-family: 'Yeseva One', cursive;
+}
+.white-uzor {
+	width: 247px;
+	height: 24px;
+	font-family: 'Lato', sans-serif;
+
+}
+.ingr-block a{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 30px 10px 0;
+	border: 5px solid rgba(255,255,255,0.3);
+	transition: 1s;
+	text-align: center;
+	overflow: hidden;
+
+
+}
+.ingr-block img {
+	width:250px;
+}
+.ingr-block a:hover {
+	transform: rotateY(180deg);
+}
+
+.menu {
+	width: 1600px;
+	padding: 30px 0 90px;
+	margin:  0 auto;
+	text-align: center;
+}
+.block-menu {
+	width: 440px;
+	display: inline-block;
+	margin: 0 30px;
+
+}
+.menu h3{
+	color: #c90;
+	font-weight: normal;
+	font-size: 36px;
+	font-family: 'Yeseva One', cursive;
+	margin:30px 0 0 ;
+}
+.punkt-menu{
+	margin-bottom: 30px;
+}
+.price {
+	color: #c90;
+	font-family: 'Yeseva One', cursive;
+	font-size: 21px;
+	overflow: hidden;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #c90;
+}
+.price span:first-child {
+	float:left;
+}
+.price span:last-child {
+	float:right;
+}
+.info {
+	text-align: left;
+	font-size: 16px;
+	color: #4c4c4c;
+	padding-top: 5px;
+	font-family: 'Lato', sans-serif ;
+
+}
+.reviews {
+	width: 1600px;
+	height: 758px;
+	margin: 0 auto;
+	text-align:  center;
+	background: url(../img/shahlik.jpg);
+}
+.block-review {
+	width: 770px;
+	height: 555px;
+	display: inline-block;
+	background: rgba(0,0,0,0.6);
+	margin-top: 100px;
+	padding:85px;
+	box-sizing:  border-box;
+}
+.block-review h3 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 36px;
+	color: #fff;
+	margin: 0;
+	font-weight: normal;
+}
+.block-review p {
+	font-size: 25px;
+	font-family: 'Gentium Book Basic' , serif;
+	margin: 0;
+	color: #dde0df;
+	line-height: 45px;
+}
+.block-review p:before {
+	content: "\201C ";
+	font-family: Georgia;
+	font-size: 90px;
+	opacity: 0.5;
+	position: absolute;
+	top: 0;
+	left: -25px;
+}
+.city {
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	margin-top:50px;
+
+
+}	
+.reserv {
+	width: 1600px;
+	margin: 0 auto;
+	padding: 100px 0;
+	text-align: center;
+}
+.reserv img {
+	margin-right: 30px;
+}
+.block-reserv {
+	display: inline-block;
+	width: 440px;
+	vertical-align: top;
+	margin-left: 100px;
+
+}
+.block-reserv h3 {
+	color:#c90;
+	font-size: 36px;
+	margin: 0;
+	font-family: 'Yeseva One' , cursive ;
+	font-weight: normal;
+
+
+
+
+}
+.block-reserv p {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color:#4c4c4c;
+}
+.block-reserv form {
+	font-family: 'Open Sans', sans-serif;
+
+}
+.form-block {
+	width: 220px;
+	text-align: left;
+	float: left;
+	margin-bottom: 25px;
+
+
+}
+.form-block label {
+	color: #c90;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.form-block input {
+	width: 200px;
+	height: 34px;
+	padding: 0 15px;
+	font-style: italic;
+	margin-top: 5px;
+	box-sizing: border-box;
+	font-size:  16px;
+	color: #7c7c7c;
+	border: 1px solid #c8c6c6;
+	outline:  none;
+	background: rgba(255,255,255,0.4);
+
+}
+.form-block input:focus {
+	border: 1px solid #c90;
+}
+.block-reserv button {
+	width: 200px;
+	height: 36px;
+	background: #c90;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	cursor:pointer;
+
+
+
+
+
+
+
